@@ -54,7 +54,7 @@ echo " em ".$tempo." segundos";
 
 
 /**
- * Cria um vetor ramdomico
+ * Cria um vetor randomico
  * 
  * @param int $ini
  * @param int $fim
@@ -162,7 +162,7 @@ function quickSort($vetor, $ini, $fim){
         }
         //Enquanto os maiores for maior que o pivo 
         while($vetor[$d] > $pivo){
-            //continua incrementando os maiores
+            //continua decrementando os maiores
             $d--;
         }
         //Se os menores cruzarem pelos maiores
